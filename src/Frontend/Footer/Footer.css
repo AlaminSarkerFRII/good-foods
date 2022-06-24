@@ -1,0 +1,13 @@
+footer{
+	background: #2c2c2c;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+}
+.footer .grid-item{
+	padding-bottom: 20px;
+}
+.footer img{
+	max-width: 70%;
+}
