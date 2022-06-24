@@ -15,7 +15,7 @@ const Product = ({product}) => {
 			<img src={img} alt="" className='w-2/4'/>
 			<h2 className='text-lg font-semibold py-2'>{title}</h2>
 			<p className='text-sm text-justify py-1'>
-				<div dangerouslySetInnerHTML={createMarkup(`${shortdesc}`)} />
+			<div dangerouslySetInnerHTML={createMarkup(`${shortdesc}`)} />
 			</p>
 			<p className='text-xl font-semibold'>${price}</p>
 			<div className="flex justify-between w-full">
@@ -25,5 +25,4 @@ const Product = ({product}) => {
 		</div>
 	);
 };
-
 export default Product;
